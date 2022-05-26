@@ -27,10 +27,12 @@ export function media(n1,n2,n3){
 }
 
 export function tabuada(numero){
-    let a = 0;
+    let a = [];
+    let b = 0;
     for(let i = 0; i <= 10; i++)
     {
-        a = numero * i
+        a[b] = numero * i;
+        b++
     }
     return a;
 }
